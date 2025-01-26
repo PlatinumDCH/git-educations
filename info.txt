@@ -9,3 +9,22 @@ git config --global core.editor "code --wait" VSCode
 /<searching element>
 n ->nex
 shift + n <-prev
+
+
+Список команд для роботи з терміналом
+        git clone https://linkRepo   
+ 	    git checkout ‘nameBranch’--------- MoveToBranch
+        git pull origin ‘nameBranch’ --------- GetDataGitHub
+        git checkout -b ‘nameNewBranch’ --------- createBranch
+        git add . та  git commit -m “text commit”-- read changr byLocal
+        git push origin ‘nameBranch’ --------- publicChange inBranch GitHub
+        git merge ‘nameBranch’ --------------- megerCode ‘nameBranch’-> CurrentBranch
+        git branch -d ‘NameBranch’ ----------- del
+        git fetch --------------------------- getData GitHub
+
+solusion conflict
+=================
+git checkout  main
+git pull
+git checkout ‘nameBranch’
+git merge main
